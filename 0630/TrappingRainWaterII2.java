@@ -40,4 +40,10 @@ public class TrappingRainWaterII2 {
         }
         return result;
     }
+
+    public static void main(String[] args){
+        TrappingRainWaterII2 t = new TrappingRainWaterII2();
+        int[][] heightMap = {{1,4,3,1,3,2},{3,2,1,3,2,4},{2,3,3,2,3,1}};
+        t.trapRainWater(heightMap);
+    }
 }

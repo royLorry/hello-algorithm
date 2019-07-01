@@ -1,5 +1,3 @@
-import java.util.ArrayList;
-
 public class TrappingRainWater {
     public int trap(int[] height) {
         int max = 0;

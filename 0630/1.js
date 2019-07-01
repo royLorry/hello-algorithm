@@ -17,7 +17,7 @@ var trapRainWater = function(heightMap) {
         for (let i = 1; i < X - 1; i++) {
             for (let j = 1; j < Y - 1; j++) {
                 let height = Math.min(Math.max(heightMap[i - 1][j], heights[i - 1][j]), Math.max(heightMap[i][j - 1], heights[i][j - 1]));
-                heights[i][j] = heights[i][j] == 0 ? height : Math.min(heights[i][j], height);
+                heights[i][j] = heights[i][j] == undefined ? height : Math.min(heights[i][j], height);
             }
         }
 
