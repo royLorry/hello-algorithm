@@ -1,6 +1,6 @@
 import java.util.LinkedHashMap;
 
-public class LRUextendArray {
+public class LRU {
 
     private LinkedHashMap linkedHashMap;
 
