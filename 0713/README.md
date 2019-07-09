@@ -1,6 +1,4 @@
-# Valid Sudoku
-https://leetcode.com/problems/valid-sudoku/
-# Sudoku Solver
-https://leetcode.com/problems/sudoku-solver/
+# LFU
+https://leetcode.com/problems/lfu-cache/
 
 Please submit your code before 13th July.
