@@ -1,6 +1,6 @@
-# Largest Rectangle in Histogram
-https://leetcode.com/problems/largest-rectangle-in-histogram/
-# Maximal Rectangle
-https://leetcode.com/problems/maximal-rectangle/
+# Valid Sudoku
+https://leetcode.com/problems/valid-sudoku/
+# Sudoku Solver
+https://leetcode.com/problems/sudoku-solver/
 
 Please submit your code before 20th July.
