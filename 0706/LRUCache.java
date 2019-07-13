@@ -1,6 +1,7 @@
-import java.util.LinkedHashMap;
+import java.util.HashMap;
+import java.util.Map;
 
-public class LRU {
+public class LRUCache {
 
     private class Node {
         public int key;
