@@ -3,15 +3,17 @@ import java.util.LinkedHashMap;
 public class LRU {
 
     private LinkedHashMap linkedHashMap;
+    private int maxCapacity;
 
     public LRUCache(int capacity) {
-        linkedHashMap = new LinkedHashMap<>(capacity);
+        this.linkedHashMap = new LinkedHashMap<>(capacity,0.75f,true);
+        this.maxCapacity = capacity;
     }
     
     public int get(int key) {
         if (linkedHashMap.containsKey(key)) {
+            // LinkedHashMap会自动将最新访问的值移动值链表尾部
             int value = linkedHashMap.get(key);
-            // 获取值并移动至链表首位
         } else {
             return -1;
         }
