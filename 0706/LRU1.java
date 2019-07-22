@@ -1,4 +1,4 @@
-public class LUR1 {
+public class LRU1 {
 
     private static class KV {
         private int key;
@@ -18,7 +18,7 @@ public class LUR1 {
     private int maxCapacity = 0;
     private KV first;
 
-    public LRUCache(int capacity) {
+    public LRU1(int capacity) {
         this.maxCapacity = capacity;
     }
 
