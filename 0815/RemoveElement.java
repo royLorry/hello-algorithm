@@ -4,11 +4,12 @@ public class RemoveElement {
         int j = nums.length - 1;
         int temp = 0;
         while (i < j) {
-            if (nums[i] != val) {
-                i++;
-            } else {
+            if (nums[i] == val) {
                 while (nums[j] == val) {
                     j--;
+                }
+                if (j == i) {
+                    break;
                 }
                 temp = nums[i];
                 nums[i] = nums[j];
@@ -17,7 +18,8 @@ public class RemoveElement {
                 // nums[j] = nums[j] - nums[i];
                 // nums[i] = nums[i] - nums[j];
             }
+            i++;
         }
-        return i + 1;
+        return i;
     }
 }
