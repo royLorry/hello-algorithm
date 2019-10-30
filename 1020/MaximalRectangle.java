@@ -3,6 +3,11 @@ import java.util.HashMap;
 import java.util.SortedSet;
 
 public class MaximalRectangle {
+
+
+    
+
+
     public int largestRectangleArea(int[] heights) {
         HashMap<Integer, ArrayList<Integer>> keyAndIndexMap = new HashMap<>();
         SortedSet<Integer> sortedKey = new TreeSet<Integer>();
@@ -24,6 +29,7 @@ public class MaximalRectangle {
             int key = it.next();
             int left = 0;
             int right = heights.length;
+            
             
 
 
